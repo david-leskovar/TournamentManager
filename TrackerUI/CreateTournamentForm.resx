@@ -1,0 +1,852 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="entryFeeValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 194</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="entryFeeValue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 7, 6, 7</value>
+  </data>
+  <data name="entryFeeValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 35</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="entryFeeValue.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="entryFeeValue.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;entryFeeValue.Name" xml:space="preserve">
+    <value>entryFeeValue</value>
+  </data>
+  <data name="&gt;&gt;entryFeeValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;entryFeeValue.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;entryFeeValue.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="entryFeeLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Light, 20.25pt</value>
+  </data>
+  <data name="entryFeeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 187</value>
+  </data>
+  <data name="entryFeeLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="entryFeeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 42</value>
+  </data>
+  <data name="entryFeeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="entryFeeLabel.Text" xml:space="preserve">
+    <value>Entry Fee</value>
+  </data>
+  <data name="&gt;&gt;entryFeeLabel.Name" xml:space="preserve">
+    <value>entryFeeLabel</value>
+  </data>
+  <data name="&gt;&gt;entryFeeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;entryFeeLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;entryFeeLabel.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="createTeamLink.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="createTeamLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 255</value>
+  </data>
+  <data name="createTeamLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 30</value>
+  </data>
+  <data name="createTeamLink.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="createTeamLink.Text" xml:space="preserve">
+    <value>create new</value>
+  </data>
+  <data name="&gt;&gt;createTeamLink.Name" xml:space="preserve">
+    <value>createTeamLink</value>
+  </data>
+  <data name="&gt;&gt;createTeamLink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;createTeamLink.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;createTeamLink.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="createPrizeButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="createPrizeButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="createPrizeButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 418</value>
+  </data>
+  <data name="createPrizeButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 47</value>
+  </data>
+  <data name="createPrizeButton.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="createPrizeButton.Text" xml:space="preserve">
+    <value>Create Prize</value>
+  </data>
+  <data name="&gt;&gt;createPrizeButton.Name" xml:space="preserve">
+    <value>createPrizeButton</value>
+  </data>
+  <data name="&gt;&gt;createPrizeButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;createPrizeButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;createPrizeButton.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tournamentTeamsListBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="tournamentTeamsListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 131</value>
+  </data>
+  <data name="tournamentTeamsListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 152</value>
+  </data>
+  <data name="tournamentTeamsListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;tournamentTeamsListBox.Name" xml:space="preserve">
+    <value>tournamentTeamsListBox</value>
+  </data>
+  <data name="&gt;&gt;tournamentTeamsListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tournamentTeamsListBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tournamentTeamsListBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tournamentsPlayersLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Light, 20.25pt</value>
+  </data>
+  <data name="tournamentsPlayersLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tournamentsPlayersLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>421, 75</value>
+  </data>
+  <data name="tournamentsPlayersLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="tournamentsPlayersLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 53</value>
+  </data>
+  <data name="tournamentsPlayersLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="tournamentsPlayersLabel.Text" xml:space="preserve">
+    <value>Teams/Player</value>
+  </data>
+  <data name="tournamentsPlayersLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;tournamentsPlayersLabel.Name" xml:space="preserve">
+    <value>tournamentsPlayersLabel</value>
+  </data>
+  <data name="&gt;&gt;tournamentsPlayersLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tournamentsPlayersLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tournamentsPlayersLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="removeSelectedPlayersButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="removeSelectedPlayersButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="removeSelectedPlayersButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>672, 163</value>
+  </data>
+  <data name="removeSelectedPlayersButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 78</value>
+  </data>
+  <data name="removeSelectedPlayersButton.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="removeSelectedPlayersButton.Text" xml:space="preserve">
+    <value>Remove Selected</value>
+  </data>
+  <data name="&gt;&gt;removeSelectedPlayersButton.Name" xml:space="preserve">
+    <value>removeSelectedPlayersButton</value>
+  </data>
+  <data name="&gt;&gt;removeSelectedPlayersButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;removeSelectedPlayersButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;removeSelectedPlayersButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="removeSelectedPrizesButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="removeSelectedPrizesButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="removeSelectedPrizesButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>672, 375</value>
+  </data>
+  <data name="removeSelectedPrizesButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 78</value>
+  </data>
+  <data name="removeSelectedPrizesButton.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="removeSelectedPrizesButton.Text" xml:space="preserve">
+    <value>Remove Selected</value>
+  </data>
+  <data name="&gt;&gt;removeSelectedPrizesButton.Name" xml:space="preserve">
+    <value>removeSelectedPrizesButton</value>
+  </data>
+  <data name="&gt;&gt;removeSelectedPrizesButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;removeSelectedPrizesButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;removeSelectedPrizesButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="prizesLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Light, 20.25pt</value>
+  </data>
+  <data name="prizesLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="prizesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>421, 291</value>
+  </data>
+  <data name="prizesLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="prizesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 53</value>
+  </data>
+  <data name="prizesLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="prizesLabel.Text" xml:space="preserve">
+    <value>Prizes</value>
+  </data>
+  <data name="prizesLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;prizesLabel.Name" xml:space="preserve">
+    <value>prizesLabel</value>
+  </data>
+  <data name="&gt;&gt;prizesLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;prizesLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;prizesLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="prizesListBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="prizesListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 347</value>
+  </data>
+  <data name="prizesListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 152</value>
+  </data>
+  <data name="prizesListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;prizesListBox.Name" xml:space="preserve">
+    <value>prizesListBox</value>
+  </data>
+  <data name="&gt;&gt;prizesListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;prizesListBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;prizesListBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="createTournamentButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="createTournamentButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="createTournamentButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>273, 528</value>
+  </data>
+  <data name="createTournamentButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 47</value>
+  </data>
+  <data name="createTournamentButton.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="createTournamentButton.Text" xml:space="preserve">
+    <value>Create Tournament</value>
+  </data>
+  <data name="&gt;&gt;createTournamentButton.Name" xml:space="preserve">
+    <value>createTournamentButton</value>
+  </data>
+  <data name="&gt;&gt;createTournamentButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;createTournamentButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;createTournamentButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="headerLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Light, 27.75pt</value>
+  </data>
+  <data name="headerLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="headerLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 21</value>
+  </data>
+  <data name="headerLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="headerLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>333, 60</value>
+  </data>
+  <data name="headerLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="headerLabel.Text" xml:space="preserve">
+    <value>Create Tournament</value>
+  </data>
+  <data name="&gt;&gt;headerLabel.Name" xml:space="preserve">
+    <value>headerLabel</value>
+  </data>
+  <data name="&gt;&gt;headerLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;headerLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;headerLabel.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="tournamentNameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Light, 20.25pt</value>
+  </data>
+  <data name="tournamentNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tournamentNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 81</value>
+  </data>
+  <data name="tournamentNameLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="tournamentNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 53</value>
+  </data>
+  <data name="tournamentNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="tournamentNameLabel.Text" xml:space="preserve">
+    <value>Tournament Name</value>
+  </data>
+  <data name="&gt;&gt;tournamentNameLabel.Name" xml:space="preserve">
+    <value>tournamentNameLabel</value>
+  </data>
+  <data name="&gt;&gt;tournamentNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tournamentNameLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tournamentNameLabel.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="tournamentNameValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 128</value>
+  </data>
+  <data name="tournamentNameValue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 7, 6, 7</value>
+  </data>
+  <data name="tournamentNameValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>316, 35</value>
+  </data>
+  <data name="tournamentNameValue.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;tournamentNameValue.Name" xml:space="preserve">
+    <value>tournamentNameValue</value>
+  </data>
+  <data name="&gt;&gt;tournamentNameValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tournamentNameValue.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tournamentNameValue.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="selectTeamLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="selectTeamLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="selectTeamLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 255</value>
+  </data>
+  <data name="selectTeamLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 30</value>
+  </data>
+  <data name="selectTeamLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="selectTeamLabel.Text" xml:space="preserve">
+    <value> Select Team</value>
+  </data>
+  <data name="&gt;&gt;selectTeamLabel.Name" xml:space="preserve">
+    <value>selectTeamLabel</value>
+  </data>
+  <data name="&gt;&gt;selectTeamLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;selectTeamLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;selectTeamLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="selectTeamDropDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 288</value>
+  </data>
+  <data name="selectTeamDropDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 38</value>
+  </data>
+  <data name="selectTeamDropDown.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="selectTeamDropDown.Text" xml:space="preserve">
+    <value>  </value>
+  </data>
+  <data name="&gt;&gt;selectTeamDropDown.Name" xml:space="preserve">
+    <value>selectTeamDropDown</value>
+  </data>
+  <data name="&gt;&gt;selectTeamDropDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;selectTeamDropDown.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;selectTeamDropDown.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="addTeamButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="addTeamButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="addTeamButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 347</value>
+  </data>
+  <data name="addTeamButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 47</value>
+  </data>
+  <data name="addTeamButton.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="addTeamButton.Text" xml:space="preserve">
+    <value> Add Team</value>
+  </data>
+  <data name="&gt;&gt;addTeamButton.Name" xml:space="preserve">
+    <value>addTeamButton</value>
+  </data>
+  <data name="&gt;&gt;addTeamButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addTeamButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;addTeamButton.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>11, 30</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>947, 588</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Light, 15.75pt</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEANjYAAAEAIABoLwAAFgAAACgAAAA2AAAAbAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALrFXjC6xV5wusVej7rFXr+6xV6/usVe/7rF
+        Xv+6xV7/usVe/7rFXr+6xV6/usVej7rFXnC6xV4wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALrF
+        XkC6xV6fusVe77rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe77rFXp+6xV5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC6xV5gusVe37rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe37rF
+        XmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAusVeYLrF
+        Xt+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7fusVeYAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAALrFXiC6xV6/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXr+6xV4gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAusVeYLrF
+        Xu+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe37rF
+        Xr+6xV6/usVe37rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7vusVeYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC6xV6PusVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXt+6xV6PusVeULrFXiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC6xV4gusVeULrF
+        Xo+6xV7fusVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXo8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALrF
+        Xp+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV6fusVeQAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAusVeQLrFXp+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV6fAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAusVen7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVev7rFXiAAAAAAAAAAAAAAAAAAAAAAusVeMLrFXnC6xV6BusVev7rFXr+6xV6/usVev7rF
+        XoG6xV5wusVeMAAAAAAAAAAAAAAAAAAAAAC6xV4gusVev7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVenwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAC6xV6BusVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXu+6xV5QAAAAAAAAAAAAAAAAusVeILrF
+        Xo+6xV7fusVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXt+6xV6PusVeIAAA
+        AAAAAAAAAAAAALrFXlC6xV7vusVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXnAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALrFXkC6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVez7rFXiAAAAAAAAAAALrFXiC6xV6fusVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXp+6xV4gAAAAAAAAAAC6xV4gusVez7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAusVeELrFXu+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7PusVeEAAAAAAAAAAAusVecLrF
+        Xu+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7vusVecAAAAAAAAAAAusVeELrFXs+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7vusVeEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAusVen7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXs+6xV4QAAAAAAAAAAC6xV6fusVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xp8AAAAAAAAAALrFXhC6xV7PusVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVenwAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAC6xV5AusVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe37rFXhAAAAAAAAAAALrF
+        Xs+6xV7/usVegbrFXoG6xV6BusVegbrFXoG6xV6BusVegbrFXoG6xV6BusVegbrFXoG6xV6BusVegbrF
+        XoG6xV6BusVegbrFXoG6xV6BusVegbrFXoG6xV6BusVen7rFXv+6xV7PAAAAAAAAAAC6xV4QusVe37rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC6xV6/usVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVeMAAAAAAAAAAAusVen7rFXv+6xV7/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAusVeQLrFXv+6xV7/usVenwAAAAAAAAAAusVeMLrFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xr8AAAAAAAAAAAAAAAAAAAAAAAAAALrFXjC6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV6PAAAAAAAA
+        AAAAAAAAusVe/7rFXv+6xV7/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAusVeQLrFXv+6xV7/usVe/wAA
+        AAAAAAAAAAAAALrFXo+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV4wAAAAAAAAAAAAAAAAAAAAALrF
+        Xp+6xV7/usVe/7rFXv+6xV7/usVe/7rFXu+6xV4QAAAAAAAAAAAAAAAAusVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/wAAAAAAAAAAAAAAALrFXhC6xV7vusVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV6fAAAAAAAAAAAAAAAAAAAAALrFXu+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        XoEAAAAAAAAAAAAAAAAAAAAAusVe/7rFXv+6xV7/usVev7rFXr+6xV6/usVev7rFXr+6xV6/usVev7rF
+        Xr+6xV6/usVev7rFXs+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/wAAAAAAAAAAAAAAAAAAAAC6xV6BusVe/7rFXv+6xV7/usVe/7rFXv+6xV7vAAAAAAAA
+        AAAAAAAAusVeULrFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXhAAAAAAAAAAAAAAAAAAAAAAusVe/7rF
+        Xv+6xV7/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALrFXkC6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/wAAAAAAAAAAAAAAAAAA
+        AAC6xV4QusVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVeUAAAAAAAAAAAusVej7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVerwAAAAAAAAAAAAAAAAAAAAAAAAAAusVe/7rFXv+6xV7/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAALrFXkC6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/wAAAAAAAAAAAAAAAAAAAAAAAAAAusVer7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVejwAAAAAAAAAAusVev7rFXv+6xV7/usVe/7rFXv+6xV7/usVeYAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAusVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAusVeYLrFXv+6xV7/usVe/7rFXv+6xV7/usVevwAAAAAAAAAAusVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVeIAAAAAAAAAAAAAAAAAAAAAAAAAAAusVe/7rFXv+6xV7/usVev7rF
+        Xr+6xV6/usVev7rFXr+6xV6/usVev7rFXr+6xV6/usVev7rFXr+6xV6/usVev7rFXr+6xV6/usVev7rF
+        Xr+6xV6/usVev7rFXr+6xV6/usVev7rFXv+6xV7/usVe/wAAAAAAAAAAAAAAAAAAAAAAAAAAusVeILrF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/wAAAAC6xV4QusVe/7rFXv+6xV7/usVe/7rFXv+6xV7/AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAusVe/7rFXv+6xV7/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALrF
+        Xv+6xV7/usVe/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALrFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        XhC6xV5AusVe/7rFXv+6xV7/usVe/7rFXv+6xV6/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAusVe/7rF
+        Xv+6xV7/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALrFXv+6xV7/usVe/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAALrFXr+6xV7/usVe/7rFXv+6xV7/usVe/7rFXkC6xV5AusVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV6/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAusVe/7rFXv+6xV7/usVev7rFXr+6xV6/usVev7rF
+        Xr+6xV6/usVev7rFXr+6xV6/usVev7rFXr+6xV6/usVev7rFXr+6xV6/usVev7rFXr+6xV6/usVev7rF
+        Xr+6xV6/usVev7rFXv+6xV7/usVe/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALrFXr+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXkC6xV5AusVe/7rFXv+6xV7/usVe/7rFXv+6xV6/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAusVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAALrFXr+6xV7/usVe/7rFXv+6xV7/usVe/7rFXkC6xV5AusVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV6/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAusVe/7rFXv+6xV7/AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALrFXkC6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALrF
+        Xr+6xV7/usVe/7rFXv+6xV7/usVe/7rFXkC6xV5AusVe/7rFXv+6xV7/usVe/7rFXv+6xV6/AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAusVe/7rFXv+6xV7/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAALrFXkC6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALrFXr+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        XkC6xV4QusVe/7rFXv+6xV7/usVe/7rFXv+6xV7/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAusVe/7rF
+        Xv+6xV7/usVegbrFXoG6xV6BusVegbrFXoG6xV6BusVegbrFXoG6xV6BusVegbrFXp+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAALrFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXhAAAAAAusVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVeIAAAAAAAAAAAAAAAAAAAAAAAAAAAusVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/wAAAAAAAAAAAAAAAAAAAAAAAAAAusVeILrFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/wAAAAAAAAAAusVev7rFXv+6xV7/usVe/7rFXv+6xV7/usVeYAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAusVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAusVeYLrFXv+6xV7/usVe/7rFXv+6xV7/usVevwAAAAAAAAAAusVej7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVerwAAAAAAAAAAAAAAAAAAAAAAAAAAusVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/wAAAAAAAAAAAAAAAAAAAAAAAAAAusVer7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVejwAAAAAAAAAAusVeULrFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        XhAAAAAAAAAAAAAAAAAAAAAAusVe/7rFXv+6xV7/usVe/7rFXkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC6xV5AusVe/7rF
+        Xv+6xV7/usVe/wAAAAAAAAAAAAAAAAAAAAC6xV4QusVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVeUAAA
+        AAAAAAAAAAAAALrFXu+6xV7/usVe/7rFXv+6xV7/usVe/7rFXoEAAAAAAAAAAAAAAAAAAAAAusVe/7rF
+        Xv+6xV7/usVe/7rFXkC6xV6/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXr+6xV5AusVe/7rFXv+6xV7/usVe/wAAAAAAAAAAAAAAAAAA
+        AAC6xV6BusVe/7rFXv+6xV7/usVe/7rFXv+6xV7vAAAAAAAAAAAAAAAAAAAAALrFXp+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXu+6xV4QAAAAAAAAAAAAAAAAusVev7rFXv+6xV7/usVe/7rFXkC6xV6/usVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xr+6xV5AusVe/7rFXv+6xV7/usVevwAAAAAAAAAAAAAAALrFXhC6xV7vusVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV6fAAAAAAAAAAAAAAAAAAAAALrFXjC6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV6PAAAAAAAA
+        AAAAAAAAusVeELrFXp+6xV6/usVev7rFXjC6xV6/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXr+6xV4wusVev7rFXr+6xV6fusVeEAAA
+        AAAAAAAAAAAAALrFXo+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV4wAAAAAAAAAAAAAAAAAAAAAAAA
+        AAC6xV6/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVeMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAC6xV6/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXu+6xV7vusVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXr8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAusVeMLrFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXr8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC6xV5AusVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe37rFXhAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC6xV6PusVev7rFXr+6xV6/usVez7rF
+        Xv+6xV7/usVe77rFXhC6xV4QusVe77rFXv+6xV7/usVez7rFXr+6xV6/usVev7rFXo8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAC6xV4QusVe37rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXkAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAusVen7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXs+6xV4QAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALrFXp+6xV7/usVe77rFXhC6xV4QusVe77rF
+        Xv+6xV6fAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALrFXhC6xV7PusVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVenwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAusVeELrF
+        Xu+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7PusVeEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAALrFXiC6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV4gAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAusVeELrFXs+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7vusVeEAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALrFXkC6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVez7rFXiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC6xV5AusVegbrF
+        XoG6xV6BusVegbrFXkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC6xV4gusVez7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAC6xV5wusVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXu+6xV5QAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAALrFXlC6xV7vusVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        XnAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAusVen7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVev7rFXiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC6xV4gusVev7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVenwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALrFXp+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV6fusVeQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAusVeQLrFXp+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV6fAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAC6xV6PusVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xt+6xV6PusVeULrFXiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC6xV4gusVeULrFXo+6xV7fusVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXo8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAusVeYLrF
+        Xu+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe37rF
+        Xr+6xV6/usVe77rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7vusVeYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALrFXiC6xV6/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXr+6xV4gAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAusVeYLrFXt+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7fusVeYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAC6xV5gusVe37rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe37rFXmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALrFXkC6xV6fusVe77rF
+        Xv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe/7rFXv+6xV7/usVe77rF
+        Xp+6xV5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALrFXjC6xV5wusVej7rFXr+6xV6/usVe/7rF
+        Xv+6xV7/usVe/7rFXr+6xV6/usVej7rFXnC6xV4wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD////////8AP////////wA///8AP///AD//8AAD//8AP//
+        AAAD//wA//wAAAD//AD/8AAAAD/8AP/gAAAAH/wA/4AD/wAH/AD/AB//4AP8AP4AfwP4AfwA/AHwAD4B
+        /AD8A8AADwD8APgHgAAHgHwA8A4AAAHAPADwHAAAAOA8AOA4///8cBwA4Dj///xwHADAeAAAAHgMAMB4
+        AAAAeAwAwPj/4AB8DACA+P/gAHwEAIH4AAAAfgQAgfgAAAB+BACB+P///H4EAIH4///8fgQAgfgAAAB+
+        BACB+AAAAH4EAIH4/+AAfgQAgfj/4AB+BACB+AAAAH4EAIH4AAAAfgQAgfgAAAB+BACA+AAAAHwEAMD4
+        f//4fAwAwHhAAAh4DADAeEAACHgMAOA8QAAI8BwA4D/AAA/wHADwH8AwD+A8APAP/jH/wDwA+Af/A/+A
+        fAD8A/+H/wD8AP4B///+AfwA/gB///gB/AD/AB//4AP8AP+AA/8AB/wA/+AAAAAf/AD/8AAAAD/8AP/8
+        AAAA//wA//8AAAP//AD//8AAD//8AP///AD///wA/////////AA=
+</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>11, 16, 11, 16</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>CreateTournamentForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
